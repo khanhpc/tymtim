@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE>❤️️❤️️❤️️KHANH❤️️❤️️❤️️</TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <style>
+  html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.851);
+}
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+	width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+}
+
+#pinkboard {
+	position: relative;
+	margin: auto;
+	height: 750px;
+	width: 750px;
+	animation: animate 1.2s infinite;
+}
+
+#pinkboard:before, #pinkboard:after {
+	content: '';
+	position: absolute;
+	background: #1ac2ec;
+	width: 100px;
+	height: 160px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+#pinkboard:before {
+	left: 100px;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+				0 10px 10px rgba(0,0,0,0.22);
+}
+
+#pinkboard:after {
+	left: 0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+}
+.avatar1{
+	margin: 0px auto;
+padding: 10px;
+	text-align: right;
+}
+.avatar2{
+	margin: 0px auto;
+	text-align: left;
+}
+.avatar3{
+	margin: 0px auto;
+
+	text-align: center;
+}
+
+@keyframes animate {
+	0% {
+		transform: scale(1);
+	}
+	30% {
+		transform: scale(.8);
+	}
+	60% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+  </style>
+ </HEAD>
+ <BODY onclick="play()";>
+  <script> 
+    function stop(){ 
+    //alert("Các Cháu làm j thế");
+    return false; 
+    } 
+    document.oncontextmenu=stop; 
+    </script>
+	<div class="btn-container">
+        <audio id="audio" src="./111/nhac.mp3" ></audio>
+    </div>
+	
+  <div class="box">
+    <canvas id="pinkboard"></canvas>
+  </div>
+  <script src="./111/main.js"></script>
+  <div class="avatar" >
+	<h1 class="avatar1"> <a href="https://www.facebook.com/khanh.dzzz" target="_blank" style="font-size: 40px;" > ❤️❤️Khanh️❤️❤️ </h1>
+	<h1 class="avatar2"> <a href="https://www.facebook.com/khanh.dzzz" target="_blank" style="font-size: 40px;" > ❤️❤️Khanh️❤️❤️ </h1>
+	<h1 class="avatar3"> <a href="https://www.facebook.com/khanh.dzzz" target="_blank" style="font-size: 40px;" > ❤️❤️Khanh️❤️❤️ </h1>		
+</div>
+ </BODY>
+</HTML>
